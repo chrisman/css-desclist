@@ -1,0 +1,24 @@
+body {
+  background-color: tomato;
+}
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+dt {
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 3px;
+  background-color: rgb(232, 118, 26);
+  border: solid 1px black;
+  padding-left: 1em;
+}
+dt:hover {
+  background-color:rgb(254, 179, 140);
+  border-radius: 0;
+  transition-duration: 1s;
+}
+
+dd {
+  padding-bottom: 1em;
+}
